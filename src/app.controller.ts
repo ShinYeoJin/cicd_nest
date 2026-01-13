@@ -9,4 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
+
+  @Get('/gelato')
+  getGelato(): string {
+    return '오늘은 4시에 오픈합니다.';
+  }
 }
