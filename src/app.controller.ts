@@ -14,4 +14,9 @@ export class AppController {
   getGelato(): string {
     return '오늘은 4시에 오픈합니다.';
   }
+
+  @Get('/arombake')
+  getAromBake(): string {
+    return '아롬베이크가 짱이얌';
+  }
 }
